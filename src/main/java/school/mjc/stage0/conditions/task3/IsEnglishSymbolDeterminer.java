@@ -4,7 +4,7 @@ public class IsEnglishSymbolDeterminer {
     public void isEnglishSymbol(char symbol) {
 
         String nowy = Character.toString(symbol);
-        if (nowy.equals("[a-zA-Z]")) {
+        if (nowy.matches("[a-zA-Z]")) {
             System.out.println("English");
         } else {
             System.out.println("Non English");
