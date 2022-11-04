@@ -10,5 +10,6 @@ public class AlphabeticCharacters {
         } else {
             System.out.println("Consonant");
         }
+
     }
 }
